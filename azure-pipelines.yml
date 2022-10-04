@@ -25,8 +25,8 @@ steps:
     SonarCloud: 'connection1'
     organization: 'unextdeloitte1663463436724'
     scannerMode: 'MSBuild'
-    projectKey: 'Azure DevOps'
-    projectName: 'Azure DevOps'
+    projectKey: 'testrishi'
+    projectName: 'testrishi'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
